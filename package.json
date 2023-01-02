@@ -1,0 +1,29 @@
+{
+  "name": "behaviour",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./bin/behaviour-backend",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-list-endpoints": "^6.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.2",
+    "mongoose-timestamp": "^0.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
