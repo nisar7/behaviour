@@ -1,9 +1,9 @@
+require("dotenv").config();
 const { behaveModel } = require("../../models/Behave");
 const mongoose = require("mongoose");
 
-
 beforeAll(() => {
-  mongoose.connect("mongodb://localhost:27017/" + "behaviour", {
+  mongoose.connect(process.env.MONGODB_URI + process.env.MONGODB_NAME, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
